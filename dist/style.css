@@ -495,8 +495,6 @@ a {
   color: rgb(127, 128, 127);
 }
 
-@import url("https://fonts.googleapis.com/css?family=Inconsolata:700");
-
 .container {
   position: absolute;
   margin: auto;
@@ -559,7 +557,7 @@ a {
 }
 
 .container input {
-  font-family: "Inconsolata", monospace;
+  font-family: "Open Sans", sans-serif;
   position: absolute;
   margin: auto;
   top: 0;
