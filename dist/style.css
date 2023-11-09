@@ -360,8 +360,6 @@ body {
   font-family: "Open Sans", sans-serif;
   color: #3f4750;
   font-size: 0.9rem;
-  display: flex;
-  flex-direction: column;
 }
 
 a {
@@ -491,7 +489,9 @@ a {
 .rodape {
   padding: 10px 0;
   text-align: center;
-  width: 100vw;
+  position: absolute;
+  width: 95%;
+  bottom: 0;
   color: rgb(127, 128, 127);
 }
 
@@ -630,23 +630,12 @@ a {
   padding-bottom: 20px;
   text-align: center;
   margin-top: 140px;
-  box-sizing: border-box;
-  max-width: 100%;
-}
-
-.porfavordecerto{
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  margin: 0;
-  overflow-x: hidden;
 }
 
 .product-image img {
   max-width: 70%;
   height: auto;
   border-radius: 8px;
-  
 }
 
 .product-details h2 {
